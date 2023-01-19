@@ -1,4 +1,4 @@
-let obj = JSON.parse($response.body);
+var obj = JSON.parse($response.body);
 
 obj = {
     "status": "true",
@@ -6,6 +6,4 @@ obj = {
     "endtime": "2023-01-19 14:30"
 }
 
-
-
-$done({ body: JSON.stringify(obj) });
+$done({body: JSON.stringify(obj)});
