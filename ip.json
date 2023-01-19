@@ -1,0 +1,24 @@
+var obj = JSON.parse($response.body);
+
+obj={
+    {
+        "ip": "212.237.118.179",
+        "continent": "akre",
+        "continentCode": "AS",
+        "country": "IQ",
+        "countryName": "akre",
+        "subdivisions": [
+          "DA"
+        ],
+        "city": "akre",
+        "timezone": "Asia/Baghdad",
+        "latitude": 36.8591,
+        "longitude": 42.987,
+        "isp": "O3-Telecom",
+        "asnNumber": 206206,
+        "asnOrganization": "Kurdistan Net Company for Computer and Internet Ltd.",
+        "organization": "Kurdistannet",
+        "postalCode": null
+      }
+}
+$done({body: JSON.stringify(obj)})
