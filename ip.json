@@ -1,7 +1,7 @@
 var obj = JSON.parse($response.body);
 
 obj={
-    {
+    
         "ip": "212.237.118.179",
         "continent": "akre",
         "continentCode": "AS",
@@ -19,6 +19,6 @@ obj={
         "asnOrganization": "hhhhhhhhhhhhhhhhh Net Company for Computer and Internet Ltd.",
         "organization": "Kurdistannet",
         "postalCode": null
-      }
+      
 }
 $done({body: JSON.stringify(obj)})
